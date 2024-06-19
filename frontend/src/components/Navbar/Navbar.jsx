@@ -13,12 +13,10 @@ const Navbar = () => {
                 <li>contact us</li>
             </ul>
             <div className="navbar-right">
-                <img src={assets.search_icon} alt="search icon" />
+                <img src={assets.search_icon} alt="search icon" className='resize-img'/>
                 <div className="navbar-search-icon">
-                    <img src={assets.basket_icon} alt="basket icon" />
-                    <div className="dot">
-
-                    </div>
+                    <img src={assets.basket_icon} alt="basket icon" className='resize-img' />
+                    <div className="dot"></div>
                 </div>
                 <button>sign in</button>
             </div>
