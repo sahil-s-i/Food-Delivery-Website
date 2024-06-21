@@ -4,20 +4,20 @@ import { assets } from '../../assets/assets';
 
 const Navbar = () => {
 
-    const [menu,setMenu] = useState("home");
+    const [menu, setMenu] = useState("home");
 
 
     return (
         <div className='navbar'>
             <img src={assets.logo} alt="logo image" className='logo' />
             <ul className="navbar-menu">
-                <li className={menu==="home"?"active":""}>home</li>
-                <li className={menu==="menu"?"active":""}>menu</li>
-                <li className={menu==="mobile-app"?"active":""}>mobile-app</li>
-                <li className={menu==="contact-us"?"active":""}>contact us</li>
+                <li onClick={() => ("home")} className={menu === "home" ? "active" : ""}>home</li>
+                <li onClick={() => ("menu")} className={menu === "menu" ? "active" : ""}>menu</li>
+                <li onClick={() => ("mobile-app")} className={menu === "mobile-app" ? "active" : ""}>mobile-app</li>
+                <li onClick={() => ("contact-us")} className={menu === "contact-us" ? "active" : ""}>contact us</li>
             </ul>
             <div className="navbar-right">
-                <img src={assets.search_icon} alt="search icon" className='resize-img'/>
+                <img src={assets.search_icon} alt="search icon" className='resize-img' />
                 <div className="navbar-search-icon">
                     <img src={assets.basket_icon} alt="basket icon" className='resize-img' />
                     <div className="dot"></div>
