@@ -1,7 +1,7 @@
 import logo from './logo.png';
 import search_icon from './search_icon.png';
 import basket_icon from './shopping-bag.png';
-import header_img from './header_img.jpeg';
+import header_img from './header_img.png';
 
 export const assets = {
     logo,
