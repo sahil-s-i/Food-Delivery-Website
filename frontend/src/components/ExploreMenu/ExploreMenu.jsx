@@ -1,11 +1,12 @@
 import React from 'react'
+import './ExploreMenu.css'
 
 const ExploreMenu = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+    return (
+        <div>
+
+        </div>
+    )
 }
 
 export default ExploreMenu
