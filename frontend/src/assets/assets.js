@@ -28,19 +28,19 @@ export const menu_list = [
         menu_image: menu_4
     },
     {
-        menu_name: "Deserts",
+        menu_name: "Cake",
         menu_image: menu_5
     },
     {
-        menu_name: "Deserts",
+        menu_name: "Pure veg",
         menu_image: menu_6
     },
     {
-        menu_name: "Deserts",
+        menu_name: "Pasta",
         menu_image: menu_7
     },
     {
-        menu_name: "Deserts",
+        menu_name: "Noodles",
         menu_image: menu_8
     },
 ]
