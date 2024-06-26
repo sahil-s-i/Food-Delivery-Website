@@ -4,7 +4,8 @@ import { menu_list } from '../../assets/assets'
 
 const ExploreMenu = () => {
     return (
-        <div>
+        <div className='explore-menu' id='explore-menu'>
+            <h1>Explore our menu</h1>
 
         </div>
     )
