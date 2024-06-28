@@ -4,6 +4,7 @@ import basket_icon from './shopping-bag.png';
 import header_img from './header_img.png';
 import menu_1 from './menu_1.jpg';
 import menu_2 from './menu_2.jpeg';
+import menu_3 from './menu_3.jpeg';
 
 export const assets = {
     logo,
@@ -12,6 +13,7 @@ export const assets = {
     header_img,
     menu_1,
     menu_2,
+    menu_3,
 }
 
 export const menu_list = [
