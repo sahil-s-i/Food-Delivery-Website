@@ -8,6 +8,7 @@ import menu_3 from './menu_3.jpeg';
 import menu_4 from './menu_4.jpg';
 import menu_5 from './menu_5.jpg';
 import menu_6 from './menu_6.jpeg';
+import menu_7 from './menu_7.jpeg';
 
 export const assets = {
     logo,
@@ -20,6 +21,7 @@ export const assets = {
     menu_4,
     menu_5,
     menu_6,
+    menu_7,
 }
 
 export const menu_list = [
