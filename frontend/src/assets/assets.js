@@ -6,7 +6,7 @@ import menu_1 from './menu_1.jpg';
 import menu_2 from './menu_2.jpeg';
 import menu_3 from './menu_3.jpeg';
 import menu_4 from './menu_4.jpg';
-import menu_5 from './menu_5.jpg';
+import menu_5 from './menu_5.jpeg';
 import menu_6 from './menu_6.jpeg';
 import menu_7 from './menu_7.jpeg';
 import menu_8 from './menu_8.jpeg';
