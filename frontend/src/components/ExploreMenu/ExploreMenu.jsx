@@ -11,12 +11,13 @@ const ExploreMenu = () => {
                 {menu_list.map((item, index) => {
                     return (
                         <div key={index} className='explore-menu-list-item'>
-                            <img src={item.menu_image} alt="menu image" className='image-resize'/>
+                            <img src={item.menu_image} alt="menu image" className='image-resize' />
                             <p>{item.menu_name}</p>
                         </div>
                     )
                 })}
             </div>
+            <hr />
         </div>
     )
 }
