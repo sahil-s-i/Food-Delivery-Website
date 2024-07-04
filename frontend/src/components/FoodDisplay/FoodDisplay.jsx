@@ -5,7 +5,8 @@ import { StoreContext } from '../../context/StoreContext'
 const FoodDisplay = () => {
   const { food_list } = useContext(StoreContext)
   return (
-    <div className='food-display'>
+    <div className='food-display' id='food-display'>
+      <h2>Top dishes near you</h2>
 
     </div>
   )
