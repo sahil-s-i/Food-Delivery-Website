@@ -1,5 +1,6 @@
 import React from 'react'
 import './Fooditem.css';
+import { assets } from '../../assets/assets';
 
 const Fooditem = ({ id, name, price, description, image }) => {
   return (
@@ -11,6 +12,7 @@ const Fooditem = ({ id, name, price, description, image }) => {
         <div className="food-item-name-rating">
           <p>{name}</p>
         </div>
+        <img src={assets.header_img} alt="Rating stars" />
       </div>
     </div>
   )
