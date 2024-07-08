@@ -2,6 +2,9 @@ import logo from './logo.png';
 import search_icon from './search_icon.png';
 import basket_icon from './shopping-bag.png';
 import header_img from './header_img.png';
+import rating_star from './rating_star.jpeg'
+
+
 import menu_1 from './menu_1.jpg';
 import menu_2 from './menu_2.jpeg';
 import menu_3 from './menu_3.jpeg';
@@ -11,19 +14,15 @@ import menu_6 from './menu_6.jpeg';
 import menu_7 from './menu_7.jpeg';
 import menu_8 from './menu_8.jpeg';
 
+
+import food_1 from './food_1.jpeg';
+
 export const assets = {
     logo,
     search_icon,
     basket_icon,
     header_img,
-    menu_1,
-    menu_2,
-    menu_3,
-    menu_4,
-    menu_5,
-    menu_6,
-    menu_7,
-    menu_8,
+    rating_star,
 }
 
 export const menu_list = [
@@ -66,8 +65,8 @@ export const food_list = [
         _id: "1",
         name: "Greek Salad",
         image: food_1,
-        price: 12,
+        price: '$12',
         description: "Food provides essential nutrients for overall health and well being",
         category: "Salad"
-    }
+    },
 ]
