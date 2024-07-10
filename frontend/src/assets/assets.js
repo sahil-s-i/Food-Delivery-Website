@@ -2,7 +2,8 @@ import logo from './logo.png';
 import search_icon from './search_icon.png';
 import basket_icon from './shopping-bag.png';
 import header_img from './header_img.png';
-import rating_star from './rating_star.jpeg'
+import rating_star from './rating_star.jpeg';
+import add_item from './add_item.png';
 
 
 import menu_1 from './menu_1.jpg';
@@ -23,6 +24,7 @@ export const assets = {
     basket_icon,
     header_img,
     rating_star,
+    add_item,
 }
 
 export const menu_list = [
