@@ -17,6 +17,10 @@ const StoreContextProvider = (props) => {
         }
     }
 
+    const removeFromCart = (itemId) => {
+        setCartItems(())
+    }
+
     const contextValue = {
         food_list
     }
