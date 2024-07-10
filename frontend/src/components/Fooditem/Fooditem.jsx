@@ -12,12 +12,12 @@ const Fooditem = ({ id, name, price, description, image }) => {
     <div className='food-item'>
       <div className="food-item-img-container">
         <img className='food-item-image' src={image} alt="food item image" />
-        {!itemCount
-          ? <img className='add' onClick={() => setItemCount(prev => prev + 1)} src={assets.add_icon_white} alt="icon white" />
+        {!cartItems[id]
+          ? <img className='add' onClick={() => addToCart(id)} src={assets.add_icon_white} alt="icon white" />
           : <div className='food-item-counter'>
-            <img onClick={() => setItemCount(prev => prev - 1)} src={assets.removeiconRed} alt="Remove icon" />
-            <p>{itemCount}</p>
-            <img onClick={() => setItemCount(prev => prev + 1)} src={assets.addiconGreen} alt="Green icon" />
+            <img onClick={() => removeFromCart(id)} src={assets.removeiconRed} alt="Remove icon" />
+            <p>{cartItems[id]}</p>
+            <img onClick={() => addToCart(id)} src={assets.addiconGreen} alt="Green icon" />
           </div>
         }
       </div>
