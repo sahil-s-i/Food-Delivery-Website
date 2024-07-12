@@ -3,12 +3,15 @@ import './Navbar.css';
 import { assets } from '../../assets/assets';
 
 const Navbar = () => {
-    
+
     const [menu, setMenu] = useState("menu");
 
     return (
         <div className='navbar'>
-            <img src={assets.logo} alt="logo image" className='logo' />
+            {/* <img src={assets.logo} alt="logo image" className='logo' /> */}
+            <div className="logo-text-container">
+                <h1 className='logo-text'>Foodie</h1>
+            </div>
             <ul className="navbar-menu">
                 <li onClick={() => setMenu("home")} className={menu === "home" ? "active" : ""}>home</li>
                 <li onClick={() => setMenu("menu")} className={menu === "menu" ? "active" : ""}>menu</li>
