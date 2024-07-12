@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+
 .navbar {
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.navbar .logo-text {
+    font-family: "Lemon", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: tomato;
+    font-size: 48px;
 }
 
 .resize-img {
