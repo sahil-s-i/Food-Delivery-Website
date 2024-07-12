@@ -1,4 +1,4 @@
-import logo from './logo.png';
+// import logo from './logo.png';
 import search_icon from './search_icon.png';
 import basket_icon from './shopping-bag.png';
 import header_img from './header_img.png';
@@ -8,10 +8,10 @@ import item_add from './item_add.png';
 import item_remove from './item_minus.png';
 
 
-import menu_1 from './menu_1.jpg';
+import menu_1 from './menu_1.jpeg';
 import menu_2 from './menu_2.jpeg';
 import menu_3 from './menu_3.jpeg';
-import menu_4 from './menu_4.jpg';
+import menu_4 from './menu_4.jpeg';
 import menu_5 from './menu_5.jpeg';
 import menu_6 from './menu_6.jpeg';
 import menu_7 from './menu_7.jpeg';
@@ -21,7 +21,7 @@ import menu_8 from './menu_8.jpeg';
 import food_1 from './food_1.jpeg';
 
 export const assets = {
-    logo,
+    // logo,
     search_icon,
     basket_icon,
     header_img,
