@@ -19,6 +19,7 @@ import menu_8 from './menu_8.jpeg';
 
 
 import food_1 from './food_1.jpeg';
+import food_2 from './food_2.jpeg';
 
 export const assets = {
     // logo,
@@ -71,6 +72,14 @@ export const food_list = [
         _id: "1",
         name: "Greek Salad",
         image: food_1,
+        price: '$12',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Salad"
+    },
+    {
+        _id: "1",
+        name: "Veg Salad",
+        image: food_2,
         price: '$12',
         description: "Food provides essential nutrients for overall health and well being",
         category: "Salad"
