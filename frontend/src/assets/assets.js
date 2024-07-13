@@ -79,7 +79,7 @@ export const food_list = [
         category: "Salad"
     },
     {
-        _id: "1",
+        _id: "2",
         name: "Veg Salad",
         image: food_2,
         price: '$18',
@@ -87,7 +87,7 @@ export const food_list = [
         category: "Salad"
     },
     {
-        _id: "1",
+        _id: "3",
         name: "Clover Salad",
         image: food_3,
         price: '$16',
@@ -95,7 +95,7 @@ export const food_list = [
         category: "Salad"
     },
     {
-        _id: "1",
+        _id: "4",
         name: "Chicken Salad",
         image: food_4,
         price: '$24',
