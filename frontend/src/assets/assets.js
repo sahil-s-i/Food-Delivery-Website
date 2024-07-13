@@ -21,6 +21,7 @@ import menu_8 from './menu_8.jpeg';
 import food_1 from './food_1.jpeg';
 import food_2 from './food_2.jpeg';
 import food_3 from './food_3.jpeg';
+import food_4 from './food_4.jpeg';
 
 export const assets = {
     // logo,
@@ -90,6 +91,14 @@ export const food_list = [
         name: "Clover Salad",
         image: food_3,
         price: '$16',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Salad"
+    },
+    {
+        _id: "1",
+        name: "Chicken Salad",
+        image: food_4,
+        price: '$24',
         description: "Food provides essential nutrients for overall health and well being",
         category: "Salad"
     },
