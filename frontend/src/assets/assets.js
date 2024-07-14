@@ -30,6 +30,24 @@ import food_9 from './food_9.jpeg';
 import food_10 from './food_10.jpeg';
 import food_11 from './food_11.jpeg';
 import food_12 from './food_12.jpeg';
+import food_13 from './food_13.jpeg';
+import food_14 from './food_14.jpeg';
+import food_15 from './food_15.jpeg';
+import food_16 from './food_16.jpeg';
+import food_17 from './food_17.jpeg';
+import food_18 from './food_18.jpeg';
+import food_19 from './food_19.jpeg';
+import food_20 from './food_20.jpeg';
+// import food_21 from './food_21.jpeg';
+// import food_22 from './food_22.jpeg';
+// import food_23 from './food_23.jpeg';
+// import food_24 from './food_24.jpeg';
+// import food_25 from './food_25.jpeg';
+// import food_26 from './food_26.jpeg';
+// import food_27 from './food_27.jpeg';
+// import food_28 from './food_28.jpeg';
+// import food_29 from './food_29.jpeg';
+// import food_30 from './food_30.jpeg';
 
 export const assets = {
     // logo,
@@ -173,5 +191,69 @@ export const food_list = [
         price: '$12',
         description: "Food provides essential nutrients for overall health and well being",
         category: "Deserts"
+    },
+    {
+        _id: "13",
+        name: "Chicken Sandwich",
+        image: food_13,
+        price: '$12',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Sandwich"
+    },
+    {
+        _id: "14",
+        name: "Vegan Sandwich",
+        image: food_14,
+        price: '$18',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Sandwich"
+    },
+    {
+        _id: "15",
+        name: "Grilled Sandwich",
+        image: food_15,
+        price: '$16',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Sandwich"
+    },
+    {
+        _id: "16",
+        name: "Bread Sandwich",
+        image: food_16,
+        price: '$24',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Sandwich"
+    },
+    {
+        _id: "17",
+        name: "Cup Cake",
+        image: food_17,
+        price: '$16',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Cake"
+    },
+    {
+        _id: "18",
+        name: "Vegan Cake",
+        image: food_18,
+        price: '$12',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Cake"
+    },
+    {
+        _id: "19",
+        name: "Butterscotch Cake",
+        image: food_19,
+        price: '$20',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Cake"
+    },
+    {
+        _id: "20",
+        name: "Sliced Cake",
+        image: food_20,
+        price: '$15',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Cake"
     },
 ]
