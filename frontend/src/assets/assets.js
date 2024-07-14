@@ -27,6 +27,7 @@ import food_6 from './food_6.jpeg';
 import food_7 from './food_7.jpeg';
 import food_8 from './food_8.jpeg';
 import food_9 from './food_9.jpeg';
+import food_10 from './food_10.jpeg';
 
 export const assets = {
     // logo,
@@ -144,6 +145,14 @@ export const food_list = [
         name: "Ripple Ice Cream",
         image: food_9,
         price: '$14',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Deserts"
+    },
+    {
+        _id: "10",
+        name: "Fruit Ice Cream",
+        image: food_10,
+        price: '$22',
         description: "Food provides essential nutrients for overall health and well being",
         category: "Deserts"
     },
