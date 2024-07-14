@@ -42,10 +42,10 @@ import food_21 from './food_21.jpeg';
 import food_22 from './food_22.jpeg';
 import food_23 from './food_23.jpeg';
 import food_24 from './food_24.jpeg';
-// import food_25 from './food_25.jpeg';
-// import food_26 from './food_26.jpeg';
-// import food_27 from './food_27.jpeg';
-// import food_28 from './food_28.jpeg';
+import food_25 from './food_25.jpeg';
+import food_26 from './food_26.jpeg';
+import food_27 from './food_27.jpeg';
+import food_28 from './food_28.jpeg';
 // import food_29 from './food_29.jpeg';
 // import food_30 from './food_30.jpeg';
 
@@ -287,5 +287,37 @@ export const food_list = [
         price: '$12',
         description: "Food provides essential nutrients for overall health and well being",
         category: "Pure veg"
+    },
+    {
+        _id: "25",
+        name: "Cheese Pasta",
+        image: food_25,
+        price: '$12',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Pasta"
+    },
+    {
+        _id: "26",
+        name: "Tomoto Pasta",
+        image: food_26,
+        price: '$18',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Pasta"
+    },
+    {
+        _id: "27",
+        name: "Creamy Pasta",
+        image: food_27,
+        price: '$16',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Pasta"
+    },
+    {
+        _id: "28",
+        name: "Chicken Pasta",
+        image: food_28,
+        price: '$24',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Pasta"
     },
 ]
