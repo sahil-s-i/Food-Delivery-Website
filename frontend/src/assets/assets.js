@@ -26,6 +26,7 @@ import food_5 from './food_5.jpeg';
 import food_6 from './food_6.jpeg';
 import food_7 from './food_7.jpeg';
 import food_8 from './food_8.jpeg';
+import food_9 from './food_9.jpeg';
 
 export const assets = {
     // logo,
@@ -134,8 +135,16 @@ export const food_list = [
         _id: "8",
         name: "Veg Rolls",
         image: food_8,
-        price: '$20',
+        price: '$15',
         description: "Food provides essential nutrients for overall health and well being",
         category: "Rolls"
+    },
+    {
+        _id: "9",
+        name: "Ripple Ice Cream",
+        image: food_9,
+        price: '$14',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Deserts"
     },
 ]
