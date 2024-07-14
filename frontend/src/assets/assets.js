@@ -38,10 +38,10 @@ import food_17 from './food_17.jpeg';
 import food_18 from './food_18.jpeg';
 import food_19 from './food_19.jpeg';
 import food_20 from './food_20.jpeg';
-// import food_21 from './food_21.jpeg';
-// import food_22 from './food_22.jpeg';
-// import food_23 from './food_23.jpeg';
-// import food_24 from './food_24.jpeg';
+import food_21 from './food_21.jpeg';
+import food_22 from './food_22.jpeg';
+import food_23 from './food_23.jpeg';
+import food_24 from './food_24.jpeg';
 // import food_25 from './food_25.jpeg';
 // import food_26 from './food_26.jpeg';
 // import food_27 from './food_27.jpeg';
@@ -255,5 +255,37 @@ export const food_list = [
         price: '$15',
         description: "Food provides essential nutrients for overall health and well being",
         category: "Cake"
+    },
+    {
+        _id: "21",
+        name: "Garlic Mushroom",
+        image: food_21,
+        price: '$14',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Pure veg"
+    },
+    {
+        _id: "22",
+        name: "Fried Cauliflower",
+        image: food_22,
+        price: '$22',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Pure veg"
+    },
+    {
+        _id: "23",
+        name: "Mixed Veg Pulao",
+        image: food_23,
+        price: '$10',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Pure veg"
+    },
+    {
+        _id: "24",
+        name: "Rice Zucchini",
+        image: food_24,
+        price: '$12',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Pure veg"
     },
 ]
