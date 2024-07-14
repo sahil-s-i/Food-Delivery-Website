@@ -28,6 +28,7 @@ import food_7 from './food_7.jpeg';
 import food_8 from './food_8.jpeg';
 import food_9 from './food_9.jpeg';
 import food_10 from './food_10.jpeg';
+import food_11 from './food_11.jpeg';
 
 export const assets = {
     // logo,
@@ -152,6 +153,14 @@ export const food_list = [
         _id: "10",
         name: "Fruit Ice Cream",
         image: food_10,
+        price: '$22',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Deserts"
+    },
+    {
+        _id: "11",
+        name: "Jar Ice Cream",
+        image: food_11,
         price: '$22',
         description: "Food provides essential nutrients for overall health and well being",
         category: "Deserts"
