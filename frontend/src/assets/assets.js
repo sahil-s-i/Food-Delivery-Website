@@ -24,6 +24,7 @@ import food_3 from './food_3.jpeg';
 import food_4 from './food_4.jpeg';
 import food_5 from './food_5.jpeg';
 import food_6 from './food_6.jpeg';
+import food_7 from './food_7.jpeg';
 
 export const assets = {
     // logo,
@@ -117,6 +118,14 @@ export const food_list = [
         name: "Peri Peri Rolls",
         image: food_6,
         price: '$12',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Rolls"
+    },
+    {
+        _id: "7",
+        name: "Chicken Rolls",
+        image: food_7,
+        price: '$20',
         description: "Food provides essential nutrients for overall health and well being",
         category: "Rolls"
     },
