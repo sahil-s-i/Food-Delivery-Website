@@ -22,6 +22,7 @@ import food_1 from './food_1.jpeg';
 import food_2 from './food_2.jpeg';
 import food_3 from './food_3.jpeg';
 import food_4 from './food_4.jpeg';
+import food_5 from './food_5.jpeg';
 
 export const assets = {
     // logo,
@@ -101,5 +102,13 @@ export const food_list = [
         price: '$24',
         description: "Food provides essential nutrients for overall health and well being",
         category: "Salad"
+    },
+    {
+        _id: "5",
+        name: "Lasagna Rolls",
+        image: food_5,
+        price: '$14',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Rolls"
     },
 ]
