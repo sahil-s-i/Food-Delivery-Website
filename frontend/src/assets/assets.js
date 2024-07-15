@@ -46,8 +46,10 @@ import food_25 from './food_25.jpeg';
 import food_26 from './food_26.jpeg';
 import food_27 from './food_27.jpeg';
 import food_28 from './food_28.jpeg';
-// import food_29 from './food_29.jpeg';
-// import food_30 from './food_30.jpeg';
+import food_29 from './food_29.jpeg';
+import food_30 from './food_30.jpeg';
+import food_31 from './food_31.jpeg';
+import food_32 from './food_32.jpeg';
 
 export const assets = {
     // logo,
@@ -319,5 +321,37 @@ export const food_list = [
         price: '$24',
         description: "Food provides essential nutrients for overall health and well being",
         category: "Pasta"
+    },
+    {
+        _id: "29",
+        name: "Butter Noodles",
+        image: food_29,
+        price: '$14',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Noodles"
+    },
+    {
+        _id: "30",
+        name: "Veg Noodles",
+        image: food_30,
+        price: '$12',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Noodles"
+    },
+    {
+        _id: "31",
+        name: "Somen Noodles",
+        image: food_31,
+        price: '$20',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Noodles"
+    },
+    {
+        _id: "32",
+        name: "Cooked Noodles",
+        image: food_32,
+        price: '$15',
+        description: "Food provides essential nutrients for overall health and well being",
+        category: "Noodles"
     },
 ]
