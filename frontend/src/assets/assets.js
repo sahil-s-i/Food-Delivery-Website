@@ -7,6 +7,7 @@ import add_item from './add_item.png';
 import item_add from './item_add.png';
 import item_remove from './item_minus.png';
 import facebook from './facebook.png';
+import twitter from './twitter.png';
 
 
 import menu_1 from './menu_1.jpeg';
@@ -62,6 +63,7 @@ export const assets = {
     item_add,
     item_remove,
     facebook,
+    twitter,
 }
 
 export const menu_list = [
