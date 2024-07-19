@@ -15,9 +15,9 @@ const Footer = () => {
           </div>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum natus quaerat error ex, atque eaque nulla vel, ut magnam unde velit alias consequatur et dicta harum doloremque, dolor voluptates recusandae!</p>
           <div className="footer-social-icons">
-            <img src={assets.facebook} alt="facebook icon" />
-            <img src={assets.twitter} alt="twitter icon" />
-            <img src={assets.linkedin} alt="linked icon" />
+            <img className="resize-img" src={assets.facebook} alt="facebook icon" />
+            <img className="resize-img" src={assets.twitter} alt="twitter icon" />
+            <img className="resize-img" src={assets.linkedin} alt="linked icon" />
           </div>
         </div>
         <div className="footer-content-center">
