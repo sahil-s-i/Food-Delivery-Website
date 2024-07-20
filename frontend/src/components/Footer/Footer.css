@@ -9,8 +9,15 @@
     padding-top: 80px;
 }
 
-.resize-img{
+.resize-img {
     margin: 1vw 1vw 0 0;
     width: 4vw;
     filter: invert(1);
+}
+
+.footer-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 80px;
 }
