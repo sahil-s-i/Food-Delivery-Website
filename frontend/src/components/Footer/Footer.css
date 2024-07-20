@@ -9,11 +9,11 @@
     padding-top: 80px;
 }
 
-.resize-img {
+/* .resize-img {
     margin: 1vw 1vw 0 0;
     width: 4vw;
     filter: invert(1);
-}
+} */
 
 .footer-content {
     width: 100%;
@@ -41,4 +41,10 @@
 .footer-content-right h2,
 .footer-content-center h2 {
     color: white;
+}
+
+.footer-social-icons img {
+    width: 40px;
+    margin-right: 15px;
+    filter: invert(1);
 }
