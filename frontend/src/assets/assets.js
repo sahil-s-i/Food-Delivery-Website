@@ -9,6 +9,7 @@ import item_remove from './item_minus.png';
 import facebook from './facebook.png';
 import twitter from './twitter.png';
 import linkedin from './linkedin.png';
+import app_store from './app_store.png';
 
 
 import menu_1 from './menu_1.jpeg';
@@ -66,6 +67,7 @@ export const assets = {
     facebook,
     twitter,
     linkedin,
+    app_store,
 }
 
 export const menu_list = [
