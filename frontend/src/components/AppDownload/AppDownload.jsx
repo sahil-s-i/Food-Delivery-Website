@@ -3,9 +3,10 @@ import './AppDownload.css'
 
 const AppDownload = () => {
     return (
-        <div>
+        <div className='app-download' id='app-download'>
+            <p>For Better Experience Download <br />Foodie App</p >
 
-        </div>
+        </div >
     )
 }
 
