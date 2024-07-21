@@ -90,4 +90,8 @@
         width: 22px;
     }
 
+    .navbar-right button {
+        padding: 8px 25px;
+    }
+
 }
