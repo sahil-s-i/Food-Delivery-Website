@@ -55,4 +55,8 @@
     .header-contents {
         max-width: 55%;
     }
+
+    .header-contents p {
+        display: none;
+    }
 }
