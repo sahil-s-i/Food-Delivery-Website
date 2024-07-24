@@ -15,9 +15,9 @@ const Navbar = () => {
             </div>
             <ul className="navbar-menu">
                 <Link onClick={() => setMenu("home")} className={menu === "home" ? "active" : ""}>home</Link>
-                <li onClick={() => setMenu("menu")} className={menu === "menu" ? "active" : ""}>menu</li>
-                <li onClick={() => setMenu("mobile-app")} className={menu === "mobile-app" ? "active" : ""}>mobile-app</li>
-                <li onClick={() => setMenu("contact-us")} className={menu === "contact-us" ? "active" : ""}>contact us</li>
+                <a onClick={() => setMenu("menu")} className={menu === "menu" ? "active" : ""}>menu</a>
+                <a onClick={() => setMenu("mobile-app")} className={menu === "mobile-app" ? "active" : ""}>mobile-app</a>
+                <a onClick={() => setMenu("contact-us")} className={menu === "contact-us" ? "active" : ""}>contact us</a>
             </ul>
             <div className="navbar-right">
                 <img src={assets.search_icon} alt="search icon" className='resize-img' />
