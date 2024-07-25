@@ -3,7 +3,7 @@ import './LoginPopup.css'
 
 const LoginPopup = () => {
 
-    const [currState, setCurrState] = useState("Sign up");
+    const [currState, setCurrState] = useState("Sign up")
 
     return (
         <div className='login-popup'>
