@@ -17,6 +17,7 @@ const LoginPopup = ({ setShowLogin }) => {
                 <div className="login-popup-inputs">
                     <input type="text" name="" id="" placeholder='Your Name' required />
                     <input type="email" name="" id="" placeholder='Email' required />
+                    <input type="password" name="" id="" placeholder='Password' required />
                 </div>
             </form>
         </div>
