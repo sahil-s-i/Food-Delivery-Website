@@ -11,6 +11,7 @@ import twitter from './twitter.png';
 import linkedin from './linkedin.png';
 import app_store from './app_store.png';
 import play_store from './play_store.png';
+import close_icon from './close.png';
 
 
 import menu_1 from './menu_1.jpeg';
@@ -70,6 +71,7 @@ export const assets = {
     linkedin,
     app_store,
     play_store,
+    close_icon,
 }
 
 export const menu_list = [
