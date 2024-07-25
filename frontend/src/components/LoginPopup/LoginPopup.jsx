@@ -11,7 +11,8 @@ const LoginPopup = ({ setShowLogin }) => {
             <form className="login-popup-container">
                 <div className="login-popup-title">
                     <h2>{currState}</h2>
-                    <img src={assets.add_item} alt="close icon" />
+                    <img onClick={() => setShowLogin(false)} src={assets.close_icon} alt="close icon" />
+                    <h1>Lorem, ipsum dolor.</h1>
                 </div>
             </form>
         </div>
