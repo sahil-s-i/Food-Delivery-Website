@@ -25,6 +25,7 @@ const LoginPopup = ({ setShowLogin }) => {
                     <input type="checkbox" name="" id="" required />
                     <p>By continuing, i agree to the terms of use & privacy policy.</p>
                 </div>
+                <p>Create a new account ?</p>
             </form>
         </div>
     )
