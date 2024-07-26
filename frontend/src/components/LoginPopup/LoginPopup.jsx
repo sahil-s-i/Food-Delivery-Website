@@ -13,8 +13,9 @@ const LoginPopup = ({ setShowLogin }) => {
                     <h2>{currState}</h2>
                     <img onClick={() => setShowLogin(false)} src={assets.close_icon} alt="close icon" />
                 </div>
+
                 <div className="login-popup-inputs">
-                    <input type="text" name="" id="" placeholder='Your Name' required />
+                    {currState === "Login" ? <></> : <input type="text" name="" id="" placeholder='Your Name' required />}
                     <input type="email" name="" id="" placeholder='Email' required />
                     <input type="password" name="" id="" placeholder='Password' required />
                 </div>
