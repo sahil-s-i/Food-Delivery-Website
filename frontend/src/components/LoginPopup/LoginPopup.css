@@ -6,3 +6,9 @@
     background-color: #00000090;
     display: grid;
 }
+
+.login-popup-container {
+    place-self: center;
+    width: max(23vw, 330px);
+    color: #808080;
+}
