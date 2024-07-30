@@ -66,3 +66,7 @@
 .login-popup-condition input {
     margin-top: 5px;
 }
+
+.login-popup p span {
+    color: tomato;
+}
