@@ -5,7 +5,10 @@ import { StoreContext } from '../../context/StoreContext';
 const Cart = () => {
   const { cartItems, food_list, removeFromCart, } = useContext(StoreContext);
   return (
-    <div>
+    <div className='cart'>
+      <div className="cart-items">
+        
+      </div>
 
     </div>
   )
