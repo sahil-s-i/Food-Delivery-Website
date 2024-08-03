@@ -45,7 +45,8 @@ const Cart = () => {
               <p>{0}</p>
             </div>
             <div className="cart-total-details">
-
+              <p>Delivery Charge</p>
+              <p>{2}</p>
             </div>
             <div className="cart-total-details">
 
