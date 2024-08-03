@@ -11,7 +11,12 @@
     font-size: max(1vw, 12px);
 }
 
-.cart-items-item{
+.cart-items-item {
     margin: 10px 0px;
-    color: black;   
+    color: black;
+}
+
+.cart-items-item img {
+    width: 50px;
+    
 }
