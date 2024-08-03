@@ -44,10 +44,12 @@ const Cart = () => {
               <p>Subtotal</p>
               <p>{0}</p>
             </div>
+            <hr />
             <div className="cart-total-details">
               <p>Delivery Charge</p>
               <p>{2}</p>
             </div>
+            <hr />
             <div className="cart-total-details">
               <b>Total</b>
               <b>{0}</b>
