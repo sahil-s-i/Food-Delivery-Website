@@ -36,7 +36,9 @@ const Cart = () => {
           }
         })}
       </div>
-
+      <div className="cart-bottom">
+        <div className="cart-total"></div>
+      </div>
     </div>
   )
 }
