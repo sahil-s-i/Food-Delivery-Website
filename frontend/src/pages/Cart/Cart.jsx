@@ -37,7 +37,21 @@ const Cart = () => {
         })}
       </div>
       <div className="cart-bottom">
-        <div className="cart-total"></div>
+        <div className="cart-total">
+          <h2>cart Total</h2>
+          <div>
+            <div className="cart-total-details">
+              <p>Subtotal</p>
+              <p>{0}</p>
+            </div>
+            <div className="cart-total-details">
+
+            </div>
+            <div className="cart-total-details">
+
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
