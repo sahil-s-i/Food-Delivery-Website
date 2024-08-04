@@ -43,3 +43,9 @@
     flex-direction: column;
     gap: 20px;
 }
+
+.cart-total-details {
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+}
