@@ -37,7 +37,8 @@ const StoreContextProvider = (props) => {
         cartItems,
         setCartItems,
         addToCart,
-        removeFromCart
+        removeFromCart,
+        getTotalCartAmount
     }
     return (
         <StoreContext.Provider value={contextValue}>
