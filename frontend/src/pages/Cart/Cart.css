@@ -26,6 +26,13 @@
     border: none;
 }
 
-.cart-items-item .cross{
+.cart-items-item .cross {
     cursor: pointer;
+}
+
+.cart-bottom {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: max(12px, 20px);
 }
