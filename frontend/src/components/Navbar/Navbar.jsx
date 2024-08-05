@@ -8,7 +8,7 @@ const Navbar = ({ setShowLogin }) => {
 
     const [menu, setMenu] = useState("menu");
 
-    const [getTotalCartAmount] = useContext(StoreContext);
+    const { getTotalCartAmount } = useContext(StoreContext);
 
     return (
         <div className='navbar'>
@@ -28,7 +28,7 @@ const Navbar = ({ setShowLogin }) => {
                 <img src={assets.search_icon} alt="search icon" className='resize-img' />
                 <div className="navbar-search-icon">
                     <Link to='/cart'><img src={assets.basket_icon} alt="basket icon" className='resize-img' /></Link>
-                    <div className="dot"></div>
+                    <div className={getTotalCartAmount() === 0 ? "" : "dot"}></div>
                 </div>
                 <button onClick={() => setShowLogin(true)}>sign in</button>
             </div>
