@@ -33,7 +33,6 @@ const Navbar = ({ setShowLogin }) => {
                 <button onClick={() => setShowLogin(true)}>sign in</button>
             </div>
         </div>
-        
     )
 }
 
