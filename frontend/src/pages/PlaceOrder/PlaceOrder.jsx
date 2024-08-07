@@ -10,6 +10,8 @@ const PlaceOrder = () => {
           <input type="text" placeholder='First Name' />
           <input type="text" placeholder='Last Name' />
         </div>
+        <input type="email" placeholder='Email Address' />
+        <input type="text" placeholder='Street' />
       </div>
       <div className="place-order-right">
 
