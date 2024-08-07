@@ -16,6 +16,10 @@ const PlaceOrder = () => {
           <input type="text" placeholder='City' />
           <input type="text" placeholder='State' />
         </div>
+        <div className="multi-fields">
+          <input type="text" placeholder='Zip code' />
+          <input type="text" placeholder='Country' />
+        </div>
       </div>
       <div className="place-order-right">
 
