@@ -20,6 +20,7 @@ const PlaceOrder = () => {
           <input type="text" placeholder='Zip code' />
           <input type="text" placeholder='Country' />
         </div>
+        <input type="text" placeholder='Phone No.'/>
       </div>
       <div className="place-order-right">
 
