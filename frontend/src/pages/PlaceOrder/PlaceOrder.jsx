@@ -12,6 +12,10 @@ const PlaceOrder = () => {
         </div>
         <input type="email" placeholder='Email Address' />
         <input type="text" placeholder='Street' />
+        <div className="multi-fields">
+          <input type="text" placeholder='City' />
+          <input type="text" placeholder='State' />
+        </div>
       </div>
       <div className="place-order-right">
 
