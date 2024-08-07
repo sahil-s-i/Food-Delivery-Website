@@ -3,7 +3,11 @@ import './Cart.css'
 import { StoreContext } from '../../context/StoreContext';
 
 const Cart = () => {
+
   const { cartItems, food_list, removeFromCart, getTotalCartAmount } = useContext(StoreContext);
+
+  const navigate = useNavigate();
+
   return (
     <div className='cart'>
       <div className="cart-items">
