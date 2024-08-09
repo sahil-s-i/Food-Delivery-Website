@@ -10,7 +10,11 @@ const PORT = 4000;
 app.use(express.json())
 app.use(cors())
 
+app.get("/", (req, res) => {
+    res.send("API working ,,,, hello world")
+})
+
 app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`)
+    console.log(`Server is running on port http://localhost:${PORT}`)
 })
 
