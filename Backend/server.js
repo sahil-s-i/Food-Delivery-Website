@@ -1,5 +1,6 @@
 import express from 'express';
 import cors from 'cors';
+import { connectDB } from './config/db.js';
 
 
 // app config 
@@ -10,6 +11,9 @@ const PORT = 4000;
 app.use(express.json())
 app.use(cors())
 
+// DB Connection 
+connectDB();
+
 app.get("/", (req, res) => {
     res.send("API working ,,,, hello world")
 })
@@ -17,4 +21,3 @@ app.get("/", (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server is running on port http://localhost:${PORT}`)
 })
-
