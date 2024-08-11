@@ -2,7 +2,7 @@ import foodModel from "../models/foodmodel.js";
 import fs from "fs";
 
 // Add food item 
-const addFood = (req, res) => {
+const addFood = async (req, res) => {
     let image_filename = `${req.file.filename}`;
 
     const food = new foodModel({
@@ -14,7 +14,7 @@ const addFood = (req, res) => {
     })
 
     try {
-        food.save();
+        await food.save();
         res.json({ success: true, message: "Food Addded" })
     } catch (error) {
         console.log(error);
