@@ -5,6 +5,11 @@ const App = () => {
   return (
     <div>
       <Navbar />
+      <hr />
+      <div className="app-content">
+        
+
+      </div>
     </div>
   )
 }
