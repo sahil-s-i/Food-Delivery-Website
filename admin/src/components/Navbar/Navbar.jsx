@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import { assets } from '../../assets/assests'
 
 const Navbar = () => {
     return (
@@ -7,7 +8,7 @@ const Navbar = () => {
             <div>
                 foodie
             </div>
-            <img src="" alt="" />
+            <img className='profile' src={assets.profile_image} alt="profile image" />
 
         </div>
     )
