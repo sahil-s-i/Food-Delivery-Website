@@ -11,12 +11,12 @@ const SIdebar = () => {
           <p>Add Items</p>
         </div>
         <div className="sidebar-option">
-          <img src={assets.add_icon} alt="Add icon" />
-          <p>Add Items</p>
+          <img src={assets.order_icon} alt="order icon" />
+          <p>List Items</p>
         </div>
         <div className="sidebar-option">
-          <img src={assets.add_icon} alt="Add icon" />
-          <p>Add Items</p>
+          <img src={assets.order_icon} alt="Add icon" />
+          <p>Orders</p>
         </div>
       </div>
     </div>
