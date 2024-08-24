@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar/Navbar'
 import Sidebar from './components/Sidebar/SIdebar'
+import { Routes } from 'react-router-dom'
 
 const App = () => {
   return (
@@ -9,7 +10,9 @@ const App = () => {
       <hr />
       <div className="app-content">
         <Sidebar />
-
+        <Routes>
+          
+        </Routes>
       </div>
     </div>
   )
