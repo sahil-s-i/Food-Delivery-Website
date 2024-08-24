@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/Navbar'
 import Sidebar from './components/Sidebar/SIdebar'
 import { Route, Routes } from 'react-router-dom'
 import Add from './pages/Add/Add'
+import List from './pages/List/List'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Sidebar />
         <Routes>
           <Route path='/add' element={<Add />} />
+          <Route path='/list' element={<List />} />
         </Routes>
       </div>
     </div>
