@@ -3,8 +3,10 @@ import './Add.css';
 
 const Add = () => {
     return (
-        <div>
+        <div className='Add'>
+            <form className='flex-col'>
 
+            </form>
         </div>
     )
 }
