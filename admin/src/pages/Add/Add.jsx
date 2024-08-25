@@ -5,7 +5,9 @@ const Add = () => {
     return (
         <div className='Add'>
             <form className='flex-col'>
+                <div className="add-img-upload flex-col">
 
+                </div>
             </form>
         </div>
     )
