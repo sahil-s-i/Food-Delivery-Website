@@ -17,7 +17,10 @@ const Add = () => {
                     <p>Product name</p>
                     <input type="text" name="name" placeholder='Type here' />
                 </div>
-                
+                <div className="add-product-description flex-col">
+                    <p>Product Description</p>
+                    <textarea name="description" rows='6'></textarea>
+                </div>
             </form>
         </div>
     )
