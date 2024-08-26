@@ -35,6 +35,10 @@ const Add = () => {
                             <option value="Noodles">Noodles</option>
                         </select>
                     </div>
+                    <div className="add-price flex-col">
+                        <p>Product price</p>
+                        <input type="Number" name='price' placeholder='$20' />
+                    </div>
                 </div>
             </form>
         </div>
