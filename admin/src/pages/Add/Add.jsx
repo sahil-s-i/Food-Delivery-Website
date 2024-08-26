@@ -13,9 +13,11 @@ const Add = () => {
                     </label>
                     <input type="file" id="image" hidden required />
                 </div>
-                <div className="add-product-name">
-                    
+                <div className="add-product-name flex-col">
+                    <p>Product name</p>
+                    <input type="text" name="name" placeholder='Type here' />
                 </div>
+                
             </form>
         </div>
     )
