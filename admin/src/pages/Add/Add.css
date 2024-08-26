@@ -1,7 +1,11 @@
-.add {
+.Add {
     width: 70%;
     margin-left: max(5vw, 25px);
     font-size: 16px;
     margin-top: 50px;
     color: #6d6d6d;
+}
+
+.Add form {
+    gap: 20px;
 }
