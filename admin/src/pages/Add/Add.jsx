@@ -5,6 +5,12 @@ import { assets } from '../../assets/assests'
 const Add = () => {
 
     const [image, setImage] = useState(false);
+    const [data, setData] = useState({
+        name: "",
+        description: "",
+        price: "",
+        category: "Salad"
+    })
 
     return (
         <div className='Add'>
@@ -12,7 +18,7 @@ const Add = () => {
                 <div className="add-img-upload flex-col">
                     <p>Upload Image</p>
                     <label htmlFor="image">
-                        <img src={image ?URL.createObjectURL(image):assets.upload} alt="image upload" />
+                        <img src={image ? URL.createObjectURL(image) : assets.upload} alt="image upload" />
                     </label>
                     <input onChange={(e) => setImage(e.target.files[0])} type="file" id="image" hidden required />
                 </div>
