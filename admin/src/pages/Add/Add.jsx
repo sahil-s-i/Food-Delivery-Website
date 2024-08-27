@@ -19,7 +19,8 @@ const Add = () => {
     }
 
     const onSubmitHandler = async (event) => {
-
+        event.preventDefault();
+        const formData = new FormData();
     }
 
     return (
