@@ -30,7 +30,7 @@ const Add = () => {
                 </div>
                 <div className="add-product-name flex-col">
                     <p>Product name</p>
-                    <input type="text" name="name" placeholder='Type here' />
+                    <input onChange={onChangeHandler} value={data.name} type="text" name="name" placeholder='Type here' />
                 </div>
                 <div className="add-product-description flex-col">
                     <p>Product Description</p>
