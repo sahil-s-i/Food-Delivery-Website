@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Add.css';
 import { assets } from '../../assets/assests'
 
 const Add = () => {
+
+    const [image,setImage] = useState(false);
+
     return (
         <div className='Add'>
             <form className='flex-col'>
