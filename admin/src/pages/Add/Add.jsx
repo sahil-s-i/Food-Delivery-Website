@@ -14,7 +14,7 @@ const Add = () => {
                     <label htmlFor="image">
                         <img src={assets.upload} alt="image upload" />
                     </label>
-                    <input type="file" id="image" hidden required />
+                    <input onChange={(e)=>setImage(e.target.files[0])} type="file" id="image" hidden required />
                 </div>
                 <div className="add-product-name flex-col">
                     <p>Product name</p>
