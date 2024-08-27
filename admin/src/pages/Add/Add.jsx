@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import './Add.css';
 import { assets } from '../../assets/assests'
 
@@ -17,11 +17,6 @@ const Add = () => {
         const value = event.target.value;
         setData(data => ({ ...data, [name]: value }))
     }
-
-    useEffect(() => {
-        console.log(data);
-
-    }, [data])
 
     return (
         <div className='Add'>
