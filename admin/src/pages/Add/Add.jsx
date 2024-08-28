@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Add.css';
 import { assets } from '../../assets/assests'
+import axios from "axios"
 
 const Add = () => {
 
@@ -26,6 +27,7 @@ const Add = () => {
         formData.append("price", Number(data.price))
         formData.append("category", data.category)
         formData.append("image", image)
+        const response = await 
     }
 
     return (
