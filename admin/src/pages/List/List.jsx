@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './List.css';
 import axios from "axios";
 import { toast } from 'react-toastify';
@@ -17,6 +17,11 @@ const List = () => {
             toast.error("Error")
         }
     }
+
+    useEffect(() => {
+        fetchList();
+    }, [])
+
     return (
         <div>
 
