@@ -27,6 +27,11 @@ const List = () => {
     return (
         <div className='list add flex-col'>
             <p>All Foods List</p>
+            <div className="list-table">
+                <div className="list-table-format">
+
+                </div>
+            </div>
 
         </div>
     )
