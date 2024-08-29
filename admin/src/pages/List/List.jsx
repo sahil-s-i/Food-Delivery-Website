@@ -29,7 +29,11 @@ const List = () => {
             <p>All Foods List</p>
             <div className="list-table">
                 <div className="list-table-format title">
-
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                    <b></b>
                 </div>
             </div>
 
