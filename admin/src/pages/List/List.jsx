@@ -35,8 +35,10 @@ const List = () => {
                     <b>Price</b>
                     <b>Action</b>
                 </div>
-                {list.map((item,index)=>{
-
+                {list.map((item, index) => {
+                    return (
+                        <div></div>
+                    )
                 })}
             </div>
 
