@@ -35,6 +35,9 @@ const List = () => {
                     <b>Price</b>
                     <b>Action</b>
                 </div>
+                {list.map((item,index)=>{
+
+                })}
             </div>
 
         </div>
