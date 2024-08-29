@@ -25,7 +25,7 @@ const List = () => {
     }, [])
 
     return (
-        <div>
+        <div className='list add flex-col'>
 
         </div>
     )
