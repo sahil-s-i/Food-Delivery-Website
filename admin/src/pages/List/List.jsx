@@ -39,6 +39,8 @@ const List = () => {
                     return (
                         <div key={index} className='list-table-format'>
                             <img src={`${url}/images/` + item.image} alt="item Image" />
+                            <p>{item.name}</p>
+                            
                         </div>
                     )
                 })}
