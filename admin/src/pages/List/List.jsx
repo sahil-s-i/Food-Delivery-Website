@@ -41,7 +41,8 @@ const List = () => {
                             <img src={`${url}/images/` + item.image} alt="item Image" />
                             <p>{item.name}</p>
                             <p>{item.category}</p>
-                            
+                            <p>{item.price}</p>
+                            <p>X</p>
                         </div>
                     )
                 })}
