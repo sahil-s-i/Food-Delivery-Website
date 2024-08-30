@@ -37,7 +37,7 @@ const List = () => {
                 </div>
                 {list.map((item, index) => {
                     return (
-                        <div></div>
+                        <div key={index} className='list-table-format'></div>
                     )
                 })}
             </div>
