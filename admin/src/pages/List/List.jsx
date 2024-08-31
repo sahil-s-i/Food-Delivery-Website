@@ -10,7 +10,7 @@ const List = () => {
 
     const fetchList = async () => {
         const response = await axios.get(`${url}/api/food/list`)
-        
+
         if (response.data.success) {
             setList(response.data.data)
         }
@@ -20,7 +20,7 @@ const List = () => {
     }
 
     const removeFood = async (foodId) => {
-        console.log(foodId);
+        const response = await axios.post(`${url}/api/food/remove`, { id: foodId })
     }
 
     useEffect(() => {
