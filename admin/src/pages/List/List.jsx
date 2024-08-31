@@ -20,6 +20,10 @@ const List = () => {
         }
     }
 
+    const removeFood = async(foodId) =>{
+        
+    }
+
     useEffect(() => {
         fetchList();
     }, [])
