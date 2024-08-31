@@ -21,7 +21,7 @@ const List = () => {
     }
 
     const removeFood = async(foodId) =>{
-        
+
     }
 
     useEffect(() => {
@@ -46,7 +46,7 @@ const List = () => {
                             <p>{item.name}</p>
                             <p>{item.category}</p>
                             <p>{item.price}</p>
-                            <p className='cursor'>X</p>
+                            <p onClick={()=>removeFood()} className='cursor'>X</p>
                         </div>
                     )
                 })}
