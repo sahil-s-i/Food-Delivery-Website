@@ -25,6 +25,9 @@ const List = () => {
         if (response.data.success) {
             toast.success(response.data.message)
         }
+        else {
+            toast.error("Error")
+        }
     }
 
     useEffect(() => {
