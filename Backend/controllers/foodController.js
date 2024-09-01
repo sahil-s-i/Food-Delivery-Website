@@ -4,14 +4,14 @@ import fs from "fs";
 // Add food item 
 const addFood = async (req, res) => {
 
-    let image_filename = `${req.file.filename}`;
+    // let image_filename = `${req.file.filename}`;
 
-    // let image_filename;
-    // if (req.file) {
-    //     image_filename = `${req.file.filename}`;
-    // } else {
-    //     console.log("No file was uploaded.");
-    // }
+    let image_filename;
+    if (req.file) {
+        image_filename = `${req.file.filename}`;
+    } else {
+        console.log("No file was uploaded.");
+    }
 
     const food = new foodModel({
         name: req.body.name,
