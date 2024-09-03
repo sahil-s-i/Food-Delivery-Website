@@ -9,8 +9,8 @@ const loginUser = async (req, res) => {
 
 }
 
-const createToke = (id) =>{
-    return jwt.sign({id},)
+const createToke = (id) => {
+    return jwt.sign({ id }, process.env.JWT_SECRET)
 }
 
 //Register user
