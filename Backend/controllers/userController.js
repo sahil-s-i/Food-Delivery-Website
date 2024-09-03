@@ -43,6 +43,8 @@ const registerUser = async (req, res) => {
         })
 
         const user = await newUser.save()
+        const token = createToke(user._id)
+        res.json({ success: true, token })
 
     } catch (error) {
 
