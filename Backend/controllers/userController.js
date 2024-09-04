@@ -6,7 +6,7 @@ import validator from "validator";
 
 //login user
 const loginUser = async (req, res) => {
-
+    const { email, password } = req.body;
 }
 
 const createToke = (id) => {
