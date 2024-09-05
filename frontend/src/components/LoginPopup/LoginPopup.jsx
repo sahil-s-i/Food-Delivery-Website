@@ -27,7 +27,7 @@ const LoginPopup = ({ setShowLogin }) => {
 
                 <div className="login-popup-inputs">
                     {currState === "Login" ? <></> : <input name='name' onChange={onChangeHandler} value={data.name} type="text" id="" placeholder='Your Name' required />}
-                    <input type="email" id="" placeholder='Email' required />
+                    <input name='email' onChange={onChangeHandler} value={data.email} type="email" id="" placeholder='Email' required />
                     <input type="password" id="" placeholder='Password' required />
                 </div>
                 <button>{currState === "Sign Up" ? "Create account" : "Login"}</button>
