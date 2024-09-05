@@ -5,6 +5,11 @@ import { assets } from '../../assets/assets'
 const LoginPopup = ({ setShowLogin }) => {
 
     const [currState, setCurrState] = useState("Login");
+    const [data, setData] = useState({
+        name: "",
+        email: "",
+        password: ""
+    })
 
     return (
         <div className='login-popup'>
@@ -28,8 +33,6 @@ const LoginPopup = ({ setShowLogin }) => {
                 {currState === "Login" ?
                     <p>Create a new account ? <span onClick={() => setCurrState("Sign up")}>Click here</span></p> :
                     <p>Already have an account ? <span onClick={() => setCurrState("Login")}>Login here</span></p>}
-
-
             </form>
         </div>
     )
