@@ -11,6 +11,10 @@ const LoginPopup = ({ setShowLogin }) => {
         password: ""
     })
 
+    const onChangeHandler = (event) => {
+
+    }
+
     return (
         <div className='login-popup'>
             <form className="login-popup-container">
