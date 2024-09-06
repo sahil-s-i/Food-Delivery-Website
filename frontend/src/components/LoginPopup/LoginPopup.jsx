@@ -20,6 +20,10 @@ const LoginPopup = ({ setShowLogin }) => {
         setData(data => ({ ...data, [name]: value }))
     }
 
+    const onLogin = async (event) =>{
+        
+    }
+
     return (
         <div className='login-popup'>
             <form className="login-popup-container">
