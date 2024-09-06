@@ -21,7 +21,7 @@ const LoginPopup = ({ setShowLogin }) => {
     }
 
     const onLogin = async (event) => {
-
+        event.preventDefalut()
     }
 
     return (
