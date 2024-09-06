@@ -20,13 +20,13 @@ const LoginPopup = ({ setShowLogin }) => {
         setData(data => ({ ...data, [name]: value }))
     }
 
-    const onLogin = async (event) =>{
-        
+    const onLogin = async (event) => {
+
     }
 
     return (
         <div className='login-popup'>
-            <form className="login-popup-container">
+            <form onSubmit={onLogin} className="login-popup-container">
                 <div className="login-popup-title">
                     <h2>{currState}</h2>
                     <img onClick={() => setShowLogin(false)} src={assets.close_icon} alt="close icon" />
