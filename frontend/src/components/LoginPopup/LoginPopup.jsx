@@ -26,6 +26,9 @@ const LoginPopup = ({ setShowLogin }) => {
         if (currState === "Login") {
             newUrl += "/api/user/login"
         }
+        else {
+            newUrl += "/api/user/register"
+        }
     }
 
     return (
