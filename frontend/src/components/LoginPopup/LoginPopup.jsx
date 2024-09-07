@@ -29,6 +29,8 @@ const LoginPopup = ({ setShowLogin }) => {
         else {
             newUrl += "/api/user/register"
         }
+
+        const response = await axios;
     }
 
     return (
