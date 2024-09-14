@@ -49,5 +49,4 @@ const StoreContextProvider = (props) => {
         </StoreContext.Provider>
     )
 }
-
 export default StoreContextProvider;
