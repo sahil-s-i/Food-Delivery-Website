@@ -11,6 +11,7 @@ const LoginPopup = ({ setShowLogin }) => {
     const [currState, setCurrState] = useState("Login");
     const [data, setData] = useState({
         name: "",
+        
         email: "",
         password: ""
     })
