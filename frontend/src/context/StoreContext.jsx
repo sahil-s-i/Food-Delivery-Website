@@ -45,6 +45,7 @@ const StoreContextProvider = (props) => {
                 setToken(localStorage.getItem("token"));
             }
         }
+        loadData();
     }, [])
 
     const contextValue = {
