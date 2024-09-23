@@ -10,6 +10,10 @@ const Navbar = ({ setShowLogin }) => {
 
     const { getTotalCartAmount, token, setToken } = useContext(StoreContext);
 
+    const logout = () => {
+
+    }
+
     return (
         <div className='navbar'>
             {/* <img src={assets.logo} alt="logo image" className='logo' /> */}
@@ -36,7 +40,7 @@ const Navbar = ({ setShowLogin }) => {
                         <ul className="nav-profile-dropdown">
                             <li><img className='resize-img' src={assets.bag_icon} alt="bag icon" /><p>Orders</p></li>
                             <hr />
-                            <li><img className='resize-img' src={assets.lagout_icon} alt="lagout icon" /><p>Logout</p></li>
+                            <li onClick={logout}><img className='resize-img' src={assets.lagout_icon} alt="lagout icon" /><p>Logout</p></li>
                         </ul>
                     </div>
                 }
