@@ -106,6 +106,10 @@
     width: 20px;
 }
 
+.nav-profile-dropdown li:hover {
+    color: tomato;
+}
+
 @media (max-width:1050px) {
     .navbar .logo {
         width: 140px;
