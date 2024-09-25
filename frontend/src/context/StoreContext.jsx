@@ -2,6 +2,7 @@ import axios from "axios";
 import { createContext, useEffect, useState } from "react";
 
 export const StoreContext = createContext(null)
+
 const StoreContextProvider = (props) => {
 
     const [cartItems, setCartItems] = useState({});
@@ -39,8 +40,8 @@ const StoreContextProvider = (props) => {
     }
 
     useEffect(() => {
-        async function loadData(params) {
-            await fetchFoodList()
+        async function loadData() {
+            await fetchFoodList();
             if (localStorage.getItem("token")) {
                 setToken(localStorage.getItem("token"));
             }
