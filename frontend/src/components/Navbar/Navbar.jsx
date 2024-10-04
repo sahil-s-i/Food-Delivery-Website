@@ -44,8 +44,7 @@ const Navbar = ({ setShowLogin }) => {
                         <ul className="nav-profile-dropdown">
                             <li><img className='resize-img' src={assets.bag_icon} alt="bag icon" /><p>Orders</p></li>
                             <hr />
-                            <li onClick={logout}><img className='resize-img' src={assets.lagout_icon} alt="lagout icon" /><p>Logout</p>
-                            </li>
+                            <li onClick={logout}><img className='resize-img' src={assets.lagout_icon} alt="lagout icon" /><p>Logout</p></li>
                         </ul>
                     </div>
                 }
