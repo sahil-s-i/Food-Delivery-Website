@@ -41,7 +41,6 @@ const Navbar = ({ setShowLogin }) => {
                 {!token ? <button onClick={() => setShowLogin(true)}>sign in</button> :
                     <div className='navbar-profile'>
                         <img className='resize-img' src={assets.user_icon} alt="profile image" />
-                        
                         <ul className="nav-profile-dropdown">
                             <li><img className='resize-img' src={assets.bag_icon} alt="bag icon" /><p>Orders</p></li>
                             <hr />
