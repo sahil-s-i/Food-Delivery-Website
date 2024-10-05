@@ -9,6 +9,7 @@ const Navbar = ({ setShowLogin }) => {
     const [menu, setMenu] = useState("menu");
 
     const { getTotalCartAmount, token, setToken } = useContext(StoreContext);
+    
 
     const navigate = useNavigate();
 
