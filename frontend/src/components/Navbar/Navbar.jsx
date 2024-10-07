@@ -53,4 +53,4 @@ const Navbar = ({ setShowLogin }) => {
     )
 }
 
-export default Navbar
+export default Navbar;
