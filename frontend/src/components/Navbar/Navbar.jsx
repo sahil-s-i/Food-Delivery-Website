@@ -48,6 +48,7 @@ const Navbar = ({ setShowLogin }) => {
                         </ul>
                     </div>
                 }
+                
             </div>
         </div >
     )
