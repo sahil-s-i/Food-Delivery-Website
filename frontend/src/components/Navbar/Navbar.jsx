@@ -24,6 +24,7 @@ const Navbar = ({ setShowLogin }) => {
             <Link to='/'>
                 <div className="logo-text-container">
                     <h1 className='logo-text'>Foodie.</h1>
+                    
                 </div>
             </Link>
             <ul className="navbar-menu">
