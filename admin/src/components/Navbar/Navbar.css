@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
-.navbar {
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .logo-text {
     font-family: "Lemon", serif;
     font-weight: 400;
@@ -24,5 +17,4 @@
 
 .navbar .profile{
     width: 40px;
-
 }
