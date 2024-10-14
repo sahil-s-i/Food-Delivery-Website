@@ -19,7 +19,6 @@ const App = () => {
       <Navbar />
       <hr />
       <div className="app-content">
-        
         <Sidebar />
         <Routes>
           <Route path='/add' element={<Add url={url} />} />
