@@ -3,7 +3,6 @@ import './Navbar.css';
 import { assets } from '../../assets/assests';
 
 const Navbar = () => {
-    
     return (
         <div className='navbar'>
             <div className="logo-text-container">
