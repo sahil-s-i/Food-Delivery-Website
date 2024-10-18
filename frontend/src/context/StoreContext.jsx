@@ -35,12 +35,6 @@ const StoreContextProvider = (props) => {
         return totalAmount;
     }
 
-    useEffect(()=>{
-        if(localStorage.getItem("token")){
-            setToken(localStorage.getItem("token"));
-        }
-    })
-
     const fetchFoodList = async () => {
         const response = await axios.get(url + "/api/food/list");
         setFoodList(response.data.data)
