@@ -40,15 +40,15 @@ const StoreContextProvider = (props) => {
         setFoodList(response.data.data)
     }
 
-    // useEffect(() => {
-    //     async function loadData() {
-    //         await fetchFoodList();
-    //         if (localStorage.getItem("token")) {
-    //             setToken(localStorage.getItem("token"));
-    //         }
-    //     }
-    //     loadData();
-    // }, [])
+    useEffect(() => {
+        async function loadData() {
+            await fetchFoodList();
+            if (localStorage.getItem("token")) {
+                setToken(localStorage.getItem("token"));
+            }
+        }
+        loadData();
+    }, [])
 
     const contextValue = {
         food_list,
