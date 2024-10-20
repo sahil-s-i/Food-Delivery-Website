@@ -37,8 +37,8 @@ const listFood = async (req, res) => {
         const foods = await foodModel.find({});
         res.json({ success: true, data: foods })
     } catch (error) {
-        console.log(error);
-        res.json({ success: false, message: "Error" })
+        // console.log(error);
+        res.json({ success: false, message: "Error" });
     }
 }
 
@@ -51,7 +51,7 @@ const removeFood = async (req, res) => {
         await foodModel.findByIdAndDelete(req.body.id);
         res.json({ success: true, message: "Food Removed" });
     } catch (error) {
-
+        res.json({ success: false, message: "Error" })
     }
 }
 
