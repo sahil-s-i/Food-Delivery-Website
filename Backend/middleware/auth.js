@@ -6,7 +6,7 @@ const authMiddleware = async (req, res, next) => {
         return res.json({ success: false, message: "Not Authorized Login Agian" })
     }
     try {
-        const token_Decode = jwt.verify(token, process.env.JWT_SECRET)
+        const token_Decode = jwt.verify(token, process.env.JWT_SECRET);
         req.body.userId = token_Decode.id;
         next();
     } catch (error) {
