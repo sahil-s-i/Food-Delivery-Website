@@ -10,7 +10,7 @@ const authMiddleware = async (req, res, next) => {
         req.body.userId = token_Decode.id;
         next();
     } catch (error) {
-        console.log(error);
+        console.log(error)
         res.json({ success: false, message: "Error " });
     }
 }
