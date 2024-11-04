@@ -28,12 +28,14 @@ const placeOrder = async (req, res) => {
         }))
 
         line_items.push({
-            price_data:{
-                currency:"inr",
-                product_data:{
+            price_data: {
+                currency: "inr",
+                product_data: {
                     name: "Delivery Charges"
-                }
-            }
+                },
+                unit_amount: 2 * 100 * 80
+            },
+            quantity: 1
         })
     } catch (error) {
 
