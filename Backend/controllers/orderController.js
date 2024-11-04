@@ -16,13 +16,15 @@ const placeOrder = async (req, res) => {
         await newOrder.save();
         await userModel.findOneAndUpdate(req.body.userId, { cartData: {} });
 
-        const line_items = req.body.items.map((item)=>({
-            price_data:{
-                currency : "inr",
-                product_data : {
-                    name : item.name
+        const line_items = req.body.items.map((item) => ({
+            price_data: {
+                currency: "inr",
+                product_data: {
+                    name: item.name
                 },
-            }
+                unit_amount: item.price * 100 * 80
+            },
+            quantity: item.quantity
         }))
     } catch (error) {
 
