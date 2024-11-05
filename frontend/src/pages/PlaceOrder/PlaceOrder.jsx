@@ -22,7 +22,7 @@ const PlaceOrder = () => {
     const name = event.target.name;
     const value = event.target.value;
 
-    setData(data=>({...data,[name]:value}))
+    setData(data => ({ ...data, [name]: value }))
   }
 
   return (
@@ -30,8 +30,8 @@ const PlaceOrder = () => {
       <div className="place-order-left">
         <p className="title">Delivery Information</p>
         <div className="multi-fields">
-          <input type="text" placeholder='First Name' />
-          <input type="text" placeholder='Last Name' />
+          <input name='firstname' onChange={onChnageHandler} value={data.firstname} type="text" placeholder='First Name' />
+          <input name='' type="text" placeholder='Last Name' />
         </div>
         <input type="email" placeholder='Email Address' />
         <input type="text" placeholder='Street' />
