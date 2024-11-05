@@ -33,7 +33,7 @@ const PlaceOrder = () => {
           <input name='firstname' onChange={onChnageHandler} value={data.firstname} type="text" placeholder='First Name' />
           <input name='lastname' onChange={onChnageHandler} value={data.lastname} type="text" placeholder='Last Name' />
         </div>
-        <input type="email" placeholder='Email Address' />
+        <input name='email' onChange={onChnageHandler} value={data.email} type="email" placeholder='Email Address' />
         <input type="text" placeholder='Street' />
         <div className="multi-fields">
           <input type="text" placeholder='City' />
