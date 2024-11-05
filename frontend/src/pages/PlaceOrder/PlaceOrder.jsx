@@ -18,7 +18,7 @@ const PlaceOrder = () => {
     phone: ""
   })
 
-  const onChnageHandler = (event) => {
+  const onChangeHandler = (event) => {
     const name = event.target.name;
     const value = event.target.value;
 
@@ -30,13 +30,13 @@ const PlaceOrder = () => {
       <div className="place-order-left">
         <p className="title">Delivery Information</p>
         <div className="multi-fields">
-          <input name='firstname' onChange={onChnageHandler} value={data.firstname} type="text" placeholder='First Name' />
-          <input name='lastname' onChange={onChnageHandler} value={data.lastname} type="text" placeholder='Last Name' />
+          <input name='firstname' onChange={onChangeHandler} value={data.firstname} type="text" placeholder='First Name' />
+          <input name='lastname' onChange={onChangeHandler} value={data.lastname} type="text" placeholder='Last Name' />
         </div>
-        <input name='email' onChange={onChnageHandler} value={data.email} type="email" placeholder='Email Address' />
-        <input type="text" placeholder='Street' />
+        <input name='email' onChange={onChangeHandler} value={data.email} type="email" placeholder='Email Address' />
+        <input name='street' onChange={onChangeHandler} value={data.street} type="text" placeholder='Street' />
         <div className="multi-fields">
-          <input type="text" placeholder='City' />
+          <input name='city' onChange={onChangeHandler} value={data.city} type="text" placeholder='City' />
           <input type="text" placeholder='State' />
         </div>
         <div className="multi-fields">
