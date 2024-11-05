@@ -21,6 +21,8 @@ const PlaceOrder = () => {
   const onChnageHandler = (event) => {
     const name = event.target.name;
     const value = event.target.value;
+
+    setData(data=>({...data,[name]:value}))
   }
 
   return (
