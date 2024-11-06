@@ -25,6 +25,10 @@ const PlaceOrder = () => {
     setData(data => ({ ...data, [name]: value }))
   }
 
+  const placeOrder = async (event) =>{
+    
+  }
+
   return (
     <form className='place-order'>
       <div className="place-order-left">
