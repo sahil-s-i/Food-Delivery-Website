@@ -37,11 +37,11 @@ const PlaceOrder = () => {
         <input name='street' onChange={onChangeHandler} value={data.street} type="text" placeholder='Street' />
         <div className="multi-fields">
           <input name='city' onChange={onChangeHandler} value={data.city} type="text" placeholder='City' />
-          <input type="text" placeholder='State' />
+          <input name='state' onChange={onChangeHandler} value={data.state} type="text" placeholder='State' />
         </div>
         <div className="multi-fields">
-          <input type="text" placeholder='Zip code' />
-          <input type="text" placeholder='Country' />
+          <input name='zipcode' onChange={onChangeHandler} value={data.zipcode} type="text" placeholder='Zip code' />
+          <input name='country' onChange={onChangeHandler} value={data.country} type="text" placeholder='Country' />
         </div>
         <input type="text" placeholder='Phone No.' />
       </div>
