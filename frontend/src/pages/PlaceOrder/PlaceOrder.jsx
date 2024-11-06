@@ -43,7 +43,7 @@ const PlaceOrder = () => {
           <input name='zipcode' onChange={onChangeHandler} value={data.zipcode} type="text" placeholder='Zip code' />
           <input name='country' onChange={onChangeHandler} value={data.country} type="text" placeholder='Country' />
         </div>
-        <input type="text" placeholder='Phone No.' />
+        <input name='phone' onChange={onChangeHandler} value={data.phone} type="text" placeholder='Phone No.' />
       </div>
       <div className="place-order-right">
         <div className="cart-total">
