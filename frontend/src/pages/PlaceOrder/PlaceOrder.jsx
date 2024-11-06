@@ -32,8 +32,10 @@ const PlaceOrder = () => {
       if (cartItems[item._id] > 0) {
         let itemInfo = item;
         itemInfo["quantity"] = cartItems[item._id]
+        orderItems.push(itemInfo);
       }
     })
+    console.log(orderItems);
   }
 
   return (
