@@ -27,6 +27,10 @@ const PlaceOrder = () => {
 
   const placeOrder = async (event) => {
     event.preventDefault();
+    let orderItems = [];
+    food_list.map(()=>{
+      
+    })
   }
 
   return (
