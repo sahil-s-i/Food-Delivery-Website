@@ -65,7 +65,8 @@ const verifyOrder = async (req, res) => {
             res.json({ success: false, message: "Not Paid" })
         }
     } catch (error) {
-
+        console.log(error);
+        res.json({ success: false, message: "Error" })
     }
 
 }
