@@ -53,4 +53,8 @@ const placeOrder = async (req, res) => {
     }
 }
 
-export { placeOrder };
+const verifyOrder = async (req, res) => {
+
+}
+
+export { placeOrder, verifyOrder };
