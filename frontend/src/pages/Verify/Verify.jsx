@@ -1,4 +1,5 @@
 import React from 'react'
+import './Verify.css';
 
 const Verify = () => {
   return (
