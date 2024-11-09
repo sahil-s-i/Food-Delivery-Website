@@ -8,11 +8,14 @@ const Verify = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const success = searchParams.get("success");
   const orderId = searchParams.get("orderId");
-  const {url} = useContext(StoreContext);
+  const { url } = useContext(StoreContext);
   // console.log(success, orderId)
 
   return (
-    <div>
+    <div className='verify'>
+      <div className="spinner">
+
+      </div>
 
     </div>
   )
