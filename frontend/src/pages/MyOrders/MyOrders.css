@@ -23,3 +23,21 @@
 .my-orders-order img{
     width: 50px;
 }
+
+.my-orders-order p span{
+    color: tomato;
+}
+
+.my-orders-order p b{
+    font-weight: 500;
+    color: #454545;
+}
+
+.my-orders-order button{
+    border: none;
+    background-color: #ffe1e1;
+    padding: 12px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #454545;
+}
