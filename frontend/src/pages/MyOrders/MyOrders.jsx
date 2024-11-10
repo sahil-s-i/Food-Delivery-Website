@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import './MyOrders.css'
 import axios from 'axios';
 import { StoreContext } from '../../context/StoreContext';
+import { assets } from '../../assets/assets';
 
 const MyOrders = () => {
 
@@ -27,7 +28,10 @@ const MyOrders = () => {
                 {data.map((order, index) => {
                     return (
                         <div key={index} className="my-orders-order">
-
+                            <img src={assets.parcel_icon} alt="Parcel icon image" />
+                            <p>{order.items.map((item, index) => {
+                                
+                            })}</p>
                         </div>
                     )
                 })}
