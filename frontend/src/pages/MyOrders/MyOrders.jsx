@@ -11,7 +11,7 @@ const MyOrders = () => {
     const fetchOrders = async () => {
         const response = await axios.post(url + "/api/order/userorders", {}, { headers: { token } });
         setData(response.data.data);
-        console.log(response.data.data)
+        console.log(response.data.data);
     }
 
     useEffect(() => {
@@ -21,9 +21,11 @@ const MyOrders = () => {
     }, [token])
 
     return (
-        <div>
-
-
+        <div className='my-orders'>
+            <h2>My Orders</h2>
+            <div className="container">
+                
+            </div>
         </div>
     )
 }
