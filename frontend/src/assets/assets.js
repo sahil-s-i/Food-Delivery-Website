@@ -15,6 +15,7 @@ import close_icon from './close.png';
 import bag_icon from './bag.png';
 import lagout_icon from './logout.png';
 import user_icon from './user.png';
+import parcel_icon from './parcels.png';
 
 import menu_1 from './menu_1.jpeg';
 import menu_2 from './menu_2.jpeg';
@@ -76,7 +77,8 @@ export const assets = {
     close_icon,
     bag_icon,
     lagout_icon,
-    user_icon
+    user_icon,
+    parcel_icon
 }
 
 export const menu_list = [
