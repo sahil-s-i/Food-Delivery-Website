@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Orders.css';
 import axios from 'axios';
 import { toast } from 'react-toastify';
@@ -12,14 +12,22 @@ const Orders = ({ url }) => {
             setOrders(response.data.data);
             console.log(response.data.data)
         }
-        else{
+        else {
             toast.error("Error");
         }
     }
 
-    return (
-        <div>
+    useEffect(() => {
+        fetchAllOrders();
+    }, [])
 
+    return (
+        <div className='order add'>
+            {orders.map((order, index) => {
+                <div key={index} className="order-item">
+                    
+                </div>
+            })}
         </div>
     )
 }
