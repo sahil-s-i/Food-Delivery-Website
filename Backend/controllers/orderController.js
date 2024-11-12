@@ -88,7 +88,8 @@ const listOrders = async (req, res) => {
         const order = await orderModel.find({});
         res.json({ success: true, data: order })
     } catch (error) {
-
+        console.log(error);
+        res.json({ success: false, message: "Error" })
     }
 
 }
