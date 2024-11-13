@@ -39,8 +39,12 @@ const Orders = ({ url }) => {
                             })}
                         </p>
                         <p className="order-item-name">
-                            {order.addresss.firstname + " " + order.addresss.lastname}
+                            {order.address.firstname + " " + order.address.lastname}
                         </p>
+                        <p className='order-item-address'>
+                            {order.address.street+","}
+                        </p>
+                        
                     </div>
                 </div>
             })}
