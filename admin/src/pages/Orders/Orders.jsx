@@ -49,6 +49,7 @@ const Orders = ({ url }) => {
                             {order.address.phone}
                         </p>
                     </div>
+                    <p>Items : {order.item.length}</p>
                 </div>
             })}
         </div>
