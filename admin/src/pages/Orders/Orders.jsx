@@ -41,11 +41,13 @@ const Orders = ({ url }) => {
                         <p className="order-item-name">
                             {order.address.firstname + " " + order.address.lastname}
                         </p>
-                        <p className='order-item-address'>
+                        <div className='order-item-address'>
                             <p>{order.address.street+","}</p>
                             <p>{order.address.city+", " + order.address.state+", " + order.address.country+", "+order.address.zipcode }</p>
+                        </div>
+                        <p className='order-item-phone'>
+                            {order.address.phone}
                         </p>
-                        
                     </div>
                 </div>
             })}
