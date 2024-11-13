@@ -50,6 +50,7 @@ const Orders = ({ url }) => {
                         </p>
                     </div>
                     <p>Items : {order.item.length}</p>
+                    <p>${order.amount}</p>
                 </div>
             })}
         </div>
