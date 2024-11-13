@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './Orders.css';
 import axios from 'axios';
 import { toast } from 'react-toastify';
+import { assets } from '../../assets/assests';
 
 const Orders = ({ url }) => {
     const [orders, setOrders] = useState([]);
@@ -25,7 +26,14 @@ const Orders = ({ url }) => {
         <div className='order add'>
             {orders.map((order, index) => {
                 <div key={index} className="order-item">
-                    
+                    <img src={assets.parcel_icon} alt="Parcel icon" />
+                    <div>
+                        <p className='order-item-food'>
+                            {order.item.map((item,index)=>{
+
+                            })}
+                        </p>
+                    </div>
                 </div>
             })}
         </div>
