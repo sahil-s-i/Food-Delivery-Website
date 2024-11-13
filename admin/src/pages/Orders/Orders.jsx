@@ -30,7 +30,12 @@ const Orders = ({ url }) => {
                     <div>
                         <p className='order-item-food'>
                             {order.item.map((item,index)=>{
-
+                                if (index === order.item.length - 1) {
+                                    return item.name + " x " + item.quantity;
+                                }
+                                else{
+                                    return item.name + " x " + item.quantity + ", ";
+                                }
                             })}
                         </p>
                     </div>
