@@ -27,7 +27,7 @@ const Orders = ({ url }) => {
             <h3>Order page</h3>
             <div className="order-list">
                 {/* <p>{orders.length}</p> */}
-                {orders.map((order, index) => {
+                {orders.map((order, index) => (
                     <div key={index} className="order-item">
                         <img src={assets.parcel_icon} alt="Parcel icon" />
                         <div>
@@ -35,8 +35,7 @@ const Orders = ({ url }) => {
                                 {order.items.map((item, index) => {
                                     if (index === order.items.length - 1) {
                                         return item.name + " x " + item.quantity;
-                                    }
-                                    else {
+                                    } else {
                                         return item.name + " x " + item.quantity + ", ";
                                     }
                                 })}
@@ -55,7 +54,7 @@ const Orders = ({ url }) => {
                         <p>Items : {order.items.length}</p>
                         <p>${order.amount}</p>
                     </div>
-                })}
+                ))}
             </div>
         </div>
     )
