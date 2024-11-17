@@ -28,4 +28,6 @@
     background-color: #ffe8e4;
     border: 1px solid tomato;
     width: max(10vw, 120px);
+    padding: 10px;
+    outline: none;
 }
