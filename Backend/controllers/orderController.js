@@ -96,7 +96,11 @@ const listOrders = async (req, res) => {
 
 // api for updating order status (food processing) 
 const updateStatus = async (req, res) => {
+    try {
+        await orderModel.findByIdAndUpdate(req.body.orderId, { status: req.body.status });
+    } catch (error) {
 
+    }
 }
 
 export { placeOrder, verifyOrder, userOrders, listOrders, updateStatus };
