@@ -94,4 +94,9 @@ const listOrders = async (req, res) => {
 
 }
 
-export { placeOrder, verifyOrder, userOrders, listOrders };
+// api for updating order status (food processing) 
+const updateStatus = async (req, res) => {
+
+}
+
+export { placeOrder, verifyOrder, userOrders, listOrders, updateStatus };
