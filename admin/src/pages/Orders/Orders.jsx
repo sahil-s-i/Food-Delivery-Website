@@ -18,6 +18,10 @@ const Orders = ({ url }) => {
         }
     }
 
+    const statusHandler = async(event, orderId)=>{
+        
+    }
+
     useEffect(() => {
         fetchAllOrders();
     }, [])
