@@ -11,7 +11,7 @@ const Orders = ({ url }) => {
         const response = await axios.get(url + "/api/order/list");
         if (response.data.success) {
             setOrders(response.data.data);
-            console.log(response.data.data)
+            // console.log(response.data.data)
         }
         else {
             toast.error("Error");
@@ -19,7 +19,7 @@ const Orders = ({ url }) => {
     }
 
     const statusHandler = async (event, orderId) => {
-
+        const response = await axios.post(url + "/api/order/status", { orderId, status: event.target.value });
     }
 
     useEffect(() => {
