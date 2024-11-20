@@ -35,6 +35,7 @@ const MyOrders = () => {
                                 }
                                 else {
                                     return item.name + " x " + item.quantity + ", ";
+                                    
                                 }
                             })}</p>
                             <p>${order.amount}.00</p>
