@@ -1,6 +1,5 @@
 import React from 'react'
 import './Footer.css'
-// import '../Navbar/Navbar.css'
 
 import { assets } from '../../assets/assets'
 
