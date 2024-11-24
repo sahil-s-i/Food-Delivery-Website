@@ -17,3 +17,4 @@ This is a dynamic food delivery website built using the MERN stack (MongoDB, Exp
 - **Backend** : ExpressJS, Node.js
 - **Database** : MongoDB
 - **Payment Gateway** : Stripe
+- **State Management**: Context API
