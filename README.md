@@ -33,3 +33,14 @@ root/
 │       ├── App.jsx      # Main application file
 │       ├── main.jsx     # Entry point
 │
+├── backend/             # Node.js + Express backend
+│   ├── config/          # Database Connection
+│   ├── controllers/     # Controller files
+│   ├── middleware/      # authentication files
+│   ├── models/          # Mongoose schemas
+│   ├── routes/          # API endpoints
+│   ├── uploads/         # Stores images uploaded by admin
+│   ├── .env/            # File with secure information
+│   ├── server.js        # Main server file
+│
+
