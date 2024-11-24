@@ -24,33 +24,35 @@ This is a dynamic food delivery website built using the MERN stack (MongoDB, Exp
 root/
 │
 ├── frontend/            # ReactJS-based frontend
-│   ├── public/          # Static assets
-│   ├── src/
-│       ├── assets/      # assets
-│       ├── components/  # Reusable components
-│       ├── context/     # StoreContext component
-│       ├── pages/       # Page-level components
+│   ├── public/          # Static assets (e.g., favicon, etc.)
+│   ├── src/             # Source code
+│       ├── assets/      # Images, icons, and other static resources
+│       ├── components/  # Reusable React components
+│       ├── context/     # Context API for global state management
+│       ├── pages/       # Page-level React components
 │       ├── App.jsx      # Main application file
-│       ├── main.jsx     # Entry point
+│       ├── main.jsx     # Entry point for React app
 │
 ├── backend/             # Node.js + Express backend
-│   ├── config/          # Database Connection
-│   ├── controllers/     # Controller files
-│   ├── middleware/      # authentication files
-│   ├── models/          # Mongoose schemas
-│   ├── routes/          # API endpoints
-│   ├── uploads/         # Stores images uploaded by admin
-│   ├── .env/            # File with secure information
+│   ├── config/          # Configuration files (e.g., database connection)
+│   ├── controllers/     # Request handlers for routes
+│   ├── middleware/      # Middleware (e.g., authentication)
+│   ├── models/          # Mongoose schemas for MongoDB
+│   ├── routes/          # API route definitions
+│   ├── uploads/         # Directory for uploaded files/images
+│   ├── .env             # Environment variables file
 │   ├── server.js        # Main server file
 │
 ├── admin/               # Admin panel
-|   ├── src/
-│       ├── assets/      # assets
-│       ├── components/  # Admin-specific components
-│       ├── pages/       # Admin-specific Page-level components
-│       ├── App.jsx      # Admin entry point
-│       ├── main.jsx     # Main application file
+│   ├── public/          # Static assets (e.g., index.html, favicon, etc.)
+│   ├── src/             # Source code
+│       ├── assets/      # Images, icons, and other static resources
+│       ├── components/  # Reusable React components for admin
+│       ├── pages/       # Page-level React components for admin
+│       ├── App.jsx      # Main application file for admin
+│       ├── main.jsx     # Entry point for React admin app
 │
 ├── README.md            # Project documentation
-└── package.json         # Project dependencies
+├── package.json         # Project dependencies and scripts
+└── package-lock.json    # Lockfile for dependencies
 ```
