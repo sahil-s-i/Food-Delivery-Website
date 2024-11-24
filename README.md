@@ -11,3 +11,9 @@ This is a dynamic food delivery website built using the MERN stack (MongoDB, Exp
 - **Stripe Integration** : Secure and smooth payment processing.
 - **Menu Items** : Predefined categories such as Salad, Rolls, Desserts, Sandwich, Cake, Pure Veg, Pasta, and Noodles.
 - **Dynamic Content** : Data-driven menu display with attractive images.
+
+## 🚀 Tech Stack
+- **Frontend** : ReactJS
+- **Backend** : ExpressJS, Node.js
+- **Database** : MongoDB
+- **Payment Gateway** : Stripe
