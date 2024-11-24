@@ -18,3 +18,18 @@ This is a dynamic food delivery website built using the MERN stack (MongoDB, Exp
 - **Database** : MongoDB
 - **Payment Gateway** : Stripe
 - **State Management**: Context API
+
+## 📂 Folder Structure
+```plaintext
+root/
+│
+├── frontend/            # ReactJS-based frontend
+│   ├── public/          # Static assets
+│   ├── src/
+│       ├── assets/      # assets
+│       ├── components/  # Reusable components
+│       ├── context/     # StoreContext component
+│       ├── pages/       # Page-level components
+│       ├── App.jsx      # Main application file
+│       ├── main.jsx     # Entry point
+│
