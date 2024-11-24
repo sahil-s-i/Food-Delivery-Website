@@ -43,4 +43,14 @@ root/
 │   ├── .env/            # File with secure information
 │   ├── server.js        # Main server file
 │
-
+├── admin/               # Admin panel
+|   ├── src/
+│       ├── assets/      # assets
+│       ├── components/  # Admin-specific components
+│       ├── pages/       # Admin-specific Page-level components
+│       ├── App.jsx      # Admin entry point
+│       ├── main.jsx     # Main application file
+│
+├── README.md            # Project documentation
+└── package.json         # Project dependencies
+```
