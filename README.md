@@ -76,3 +76,19 @@ MONGO_URI=<your-mongo-db-uri>
 STRIPE_SECRET_KEY=<your-stripe-secret-key>
 STRIPE_PUBLIC_KEY=<your-stripe-public-key>
 ```
+
+### Run the application:
+#### Start the backend server:
+```bash
+npm run server
+```
+
+#### Start the frontend and admin panels:
+```bash
+npm run dev
+```
+
+### Access the application:
+- **Frontend**: [http://localhost:5174](http://localhost:5174)  
+- **Backend**: [http://localhost:5000](http://localhost:4000)  
+- **Admin Panel**: [http://localhost:4000](http://localhost:4000)
