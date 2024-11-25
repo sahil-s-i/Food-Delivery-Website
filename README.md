@@ -56,3 +56,16 @@ root/
 ├── package.json         # Project dependencies and scripts
 └── package-lock.json    # Lockfile for dependencies
 ```
+## 🔧 Setup Instructions
+
+### Clone the repository:
+```bash
+git clone <repository-url>
+```
+
+### Install dependencies:
+Navigate to the `frontend`, `backend`, and `admin` folders and run:
+```bash
+npm install
+```
+
