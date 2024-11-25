@@ -92,3 +92,8 @@ npm run dev
 - **Frontend**: [http://localhost:5174](http://localhost:5174)  
 - **Backend**: [http://localhost:5000](http://localhost:4000)  
 - **Admin Panel**: [http://localhost:4000](http://localhost:4000)
+
+## 🛠️ Future Enhancements
+- Introduce real-time order tracking.
+- Add a review and rating system for menu items.
+- Implement notifications for order updates.
