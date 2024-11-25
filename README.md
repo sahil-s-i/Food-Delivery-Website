@@ -94,6 +94,6 @@ npm run dev
 - **Admin Panel**: [http://localhost:4000](http://localhost:4000)
 
 ## 🛠️ Future Enhancements
-- Introduce real-time order tracking.
-- Add a review and rating system for menu items.
-- Implement notifications for order updates.
+- Have to introduce real-time order tracking.
+- Have to add review and rating system for menu items.
+- Implementation of notifications for order updates.
