@@ -74,6 +74,10 @@ Update `.env` file in the `backend` folder with the following:
 ```env
 STRIPE_SECRET_KEY=<your-stripe-secret-key>
 ```
+Update `config/db.js` file in the `backend` folder with the following:
+```env
+MONGO_URI=<your-mongo-db-uri>
+```
 
 ### Run the application:
 #### Start the backend server:
