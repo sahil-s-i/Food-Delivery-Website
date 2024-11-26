@@ -72,9 +72,7 @@ npm install
 ### Configure environment variables:
 Update `.env` file in the `backend` folder with the following:
 ```env
-MONGO_URI=<your-mongo-db-uri>
 STRIPE_SECRET_KEY=<your-stripe-secret-key>
-STRIPE_PUBLIC_KEY=<your-stripe-public-key>
 ```
 
 ### Run the application:
