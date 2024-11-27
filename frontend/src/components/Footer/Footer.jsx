@@ -12,10 +12,7 @@ const Footer = () => {
           <div className="logo-text-container">
             <h1 className='logo-text'>Foodie.</h1>
           </div>
-          <p>Delight in every bite, crafted with passion and care. Join us on a flavorful journey and let us make your dining experience truly special!
-
-            
-          </p>
+          <p>Delight in every bite, crafted with passion and care. Join us on a flavorful journey and let us make your dining experience truly special!</p>
           <div className="footer-social-icons">
             <img className="resize-img" src={assets.facebook} alt="facebook icon" />
             <img className="resize-img" src={assets.twitter} alt="twitter icon" />
