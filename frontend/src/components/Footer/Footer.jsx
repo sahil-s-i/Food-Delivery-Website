@@ -9,7 +9,6 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-content-left">
           {/* <img src={assets.basket_icon} alt="logo image" /> */}
-          
           <div className="logo-text-container">
             <h1 className='logo-text'>Foodie.</h1>
           </div>
